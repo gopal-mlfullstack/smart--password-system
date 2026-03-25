@@ -1,27 +1,26 @@
-🔐 Smart Password System
+# 🔐 Smart Password System
 
 A full-stack web application that generates secure passwords, analyzes their strength using entropy, and stores history for user insights.
 
 ---
 
-🚀 Tech Stack
+## 🚀 Tech Stack
 
-Backend
-
+### Backend
 - FastAPI (Python)
 - SQLAlchemy (ORM)
 - SQLite (Database)
 
-Frontend
-
+### Frontend
 - React
 - TypeScript
 - Tailwind CSS
 
 ---
 
-📂 Project Structure
+## 📂 Project Structure
 
+```
 smart-password-system/
 ├── backend/
 │   ├── app/
@@ -46,61 +45,70 @@ smart-password-system/
 │   └── package.json
 │
 └── README.md
+```
 
 ---
 
-⚙️ Getting Started (Run Locally)
+## ⚙️ Getting Started (Run Locally)
 
-1️⃣ Clone the Repository
+### 1️⃣ Clone the Repository
 
+```bash
 git clone https://github.com/gopal-mlfullstack/simple-password-system.git
 cd simple-password-system
+```
 
 ---
 
-🧠 Backend Setup
+## 🧠 Backend Setup
 
+```bash
 cd backend
 python -m venv venv
 source venv/bin/activate   # Linux / Mac
 # venv\Scripts\activate    # Windows
 
 pip install -r requirements.txt
+```
 
-▶️ Run Backend
+### ▶️ Run Backend
 
+```bash
 uvicorn app.main:app --reload
+```
 
 Backend runs at:
-👉 http://127.0.0.1:8000
+👉 http://127.0.0.1:8000  
 👉 API Docs: http://127.0.0.1:8000/docs
 
 ---
 
-🎨 Frontend Setup
+## 🎨 Frontend Setup
 
+```bash
 cd frontend
 npm install
 npm run dev
+```
 
-Frontend runs at:
+Frontend runs at:  
 👉 http://localhost:5173
 
 ---
 
-🔌 API Configuration
+## 🔌 API Configuration
 
 Make sure frontend API base URL is set to:
 
+```
 http://127.0.0.1:8000
+```
 
-File:
-
-src/services/api.ts
+File: `src/services/api.ts`
 
 ---
 
-✨ Features
+## ✨ Features
 
 - 🔐 Secure password generation
 - 📊 Entropy-based strength analysis
@@ -110,7 +118,7 @@ src/services/api.ts
 
 ---
 
-🧠 Key Concepts Learned
+## 🧠 Key Concepts Learned
 
 - REST API development
 - Backend architecture (services, models, schemas)
@@ -120,7 +128,7 @@ src/services/api.ts
 
 ---
 
-📌 Future Improvements
+## 📌 Future Improvements
 
 - User authentication (JWT)
 - Password hashing (bcrypt)
@@ -128,15 +136,14 @@ src/services/api.ts
 - Deployment (Render + Vercel)
 
 ---
+
 ## 💼 Author
 
 **Gopal Mahato**  
-GitHub: https://github.com/gopal-mlfullstack
+GitHub: [https://github.com/gopal-mlfullstack](https://github.com/gopal-mlfullstack)
 
 ---
 
-⭐ Contributing
+## ⭐ Contributing
 
 Feel free to fork this repo and improve it!
-
----
